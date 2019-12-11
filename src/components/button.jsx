@@ -7,6 +7,7 @@ const ButtonStyled = styled.button`
   margin: 0;
   padding: 0;
   border: none;
+  user-select: none;
   width: ${props => (props.expand ? '100%' : 'auto')};
   height: ${props => (props.expand ? '100%' : 'auto')};
   overflow: visible;
