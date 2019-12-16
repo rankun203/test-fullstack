@@ -27,6 +27,7 @@ const CardTitleStyled = styled.div`
   font-weight: 500;
   line-height: 125%;
   margin-bottom: ${props => props.theme.gridSize / 2}px;
+  word-break: break-word;
 `;
 
 const CardDescStyled = styled.div`
@@ -34,7 +35,6 @@ const CardDescStyled = styled.div`
   line-height: 125%;
   margin-bottom: ${props => props.theme.gridSize / 2}px;
   max-height: ${props => props.theme.fontSizeSmall * 1.25 * 2}px;
-  overflow: hidden;
   word-break: break-word;
 `;
 
