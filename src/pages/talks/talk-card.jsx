@@ -35,6 +35,7 @@ const CardDescStyled = styled.div`
   margin-bottom: ${props => props.theme.gridSize / 2}px;
   max-height: ${props => props.theme.fontSizeSmall * 1.25 * 2}px;
   overflow: hidden;
+  word-break: break-word;
 `;
 
 const CardMetaGroupStyled = styled.div`
